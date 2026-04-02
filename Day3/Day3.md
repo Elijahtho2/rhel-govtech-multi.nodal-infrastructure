@@ -56,5 +56,5 @@ ssh user200@gov-auth
 
 - Verification
 
-![Verified](../screenshots/phase-1-auth/day3-ssh-verified.png)
+![Verified](../screenshots/phase-1-auth/day3-ssh-verification.png)
 
