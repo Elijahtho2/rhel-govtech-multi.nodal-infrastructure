@@ -57,22 +57,39 @@ chown :Alpha /sharedgroup
 
 chmod 2770 /sharedgroup
 
-![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png)
-
 ## Verifcation
 
 ### Commands:
+
+getent groups | grep "users"||"Alpha"||"Beta"
+
+![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png)
 
 id user100
 
 ls -ld /sharedgroup
 
+su - user100
+
+cd /sharedgroup
+
+touch testfile.txt
+
+ls
+
+![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png)
+
+
 ## Screenshots
 
-- Broken State
+- Broken State - permission denied
 
 ![Broken State](../screenshots/phase-1-auth/day1-user-broken.png)
 
-- Fixed State
+- Fixed State - users & groups created
+
+![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png)
+
+- Fixed State - permission granted
 
 ![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png) 
