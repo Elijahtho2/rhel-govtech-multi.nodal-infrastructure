@@ -1,18 +1,25 @@
 # Day 1 - Users & Groups Lab
 
 ## Objective
+
 - Create users and groups 
 - Set permissions for /sharedgroup
 
 ## Broken / Issue
+
 - Users missing 
 - Groups missing
 - Permissions incorrect
+
 ![Broken State](../screenshots/phase-1-auth/day1-user-broken.png)
 
-## TroubleShoot 
+## Fix:
 
-## Steps Performed
+- Created users, added to groups
+- Set permissions for /sharedgroup
+
+### Commands:
+
 1. Created Users:
 useradd user100
 useradd user200
@@ -36,15 +43,17 @@ mkdir /sharedgroup
 chown :Alpha /sharedgroup
 chmod 2770 /sharedgroup
 
-## Fixed  
-- Created users, added to groups
-- Set permissions for /sharedgroup
 ![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png)
 
 ## Verifcation
-- Check users with 'id user100'
-- Check permissions with 'ls -ld /sharedgroup'
+
+### Commands:
+
+id user100
+ls -ld /sharedgroup
 
 ## Screenshots
+
 ![Broken State](../screenshots/phase-1-auth/day1-user-broken.png)
+
 ![Fixed State](../screenshots/phase-1-auth/day1-user-fixed.png) 
