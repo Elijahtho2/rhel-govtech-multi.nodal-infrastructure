@@ -10,6 +10,7 @@
 ### Commands:
 
 su - user200
+
 sudo systemctl restart sshd
 
 ![Broken State](../screenshots/phase-1-auth/day2-sudo-broken.png)
@@ -19,8 +20,11 @@ sudo systemctl restart sshd
 ### Commands:
 
 su -
+
 usermod -aG wheel user200
+
 visudo
+
 ----[ensure]    %wheel ALL=(ALL) ALL is there----
 
 ![Fixed State](../screenshots/phase-1-auth/day2-sudo-fixed.png)
@@ -36,9 +40,15 @@ sudo systemctl restart sshd
 
 ## Screenshots
 
+- Broken State
+
 ![Broken State](../screenshots/phase-1-auth/day2-sudo-broken.png)
 
+- Fixed State
+
 ![Fixed State](../screenshots/phase-1-auth/day2-sudo-fixed.png)
+
+- Verification
 
 ![Verified](../screenshots/phase-1-auth/day2-sudo-verified.png)
 

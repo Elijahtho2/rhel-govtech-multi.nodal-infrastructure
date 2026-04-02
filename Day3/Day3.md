@@ -15,7 +15,9 @@
 ### Commands:
 
 sudo systemctl stop sshd
+
 ssh user200@localhost
+
 getenforce
 
 ![Broken State](../screenshots/phase-1-auth/day3-SSH-broken.png)
@@ -29,6 +31,7 @@ getenforce
 ### Commands:
 
 sudo systemctl enable --now sshd
+
 sudo setenforce 0
 
 ![Fixed State](../screenshots/phase-1-auth/day3-SSH-fixed.png)
@@ -43,9 +46,15 @@ ssh user200@gov-auth
 
 ## Screenshots
 
+- Broken State
+
 ![Broken State](../screenshots/phase-1-auth/day3-SSH-broken.png)
+
+- Fixed State
 
 ![Fixed State](../screenshots/phase-1-auth/day3-SSH-fixed.png)
 
-![Verified](../screenshots/phase-1-auth/day3-SSH-verified.png)
+- Verification
 
+![Verified](../screenshots/phase-1-auth/day3-SSH-verified.png)
+i
