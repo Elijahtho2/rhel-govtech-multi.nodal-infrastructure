@@ -34,6 +34,7 @@ visudo
 ### Commands:
 
 su - user200
+
 sudo systemctl restart sshd
 
 ![Verified](../screenshots/phase-1-auth/day2-sudo-verified.png)
