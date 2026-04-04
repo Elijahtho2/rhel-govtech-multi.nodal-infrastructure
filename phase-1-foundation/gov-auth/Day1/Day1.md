@@ -11,7 +11,7 @@
 - Groups missing
 - Permissions incorrect
 
-![Broken State](..//phase-1-foundation/gov-auth/screenshots/day1-user-broken.png)
+![Broken State](../screenshots/day1-user-broken.png)
 
 ## Fix:
 
@@ -63,7 +63,7 @@ chmod 2770 /sharedgroup
 
 getent groups | grep "users"||"Alpha"||"Beta"
 
-![Fixed State](../phase-1-foundation/gov-auth/screenshots/day1-user-fixed.png)
+![Fixed State](../screenshots/day1-user-verification.png)
 
 id user100
 
@@ -77,20 +77,20 @@ touch testfile.txt
 
 ls
 
-![Fixed State](../phase-1-foundation/gov-auth/screenshots/day1-user-fixed.png)
+![Fixed State](../sreenshots/day1-user-fixed.png)
 
 
 ## Screenshots
 
 - Broken State - permission denied
 
-![Broken State](..//phase-1-foundation/gov-auth/screenshots/day1-user-broken.png)
+![Broken State](../screenshots/day1-user-broken.png)
 
 - Fixed State - users & groups created
 
-![Fixed State](../phase-1-foundation/gov-auth/screenshots/day1-user-verification.png)
+![Fixed State](../screenshots/day1-user-verification.png)
 
 - Fixed State - permission granted
 
-![Fixed State](../phase-1-foundation/gov-auth/screenshots/day1-user-fixed.png)
+![Fixed State](../sreenshots/day1-user-fixed.png)
 
