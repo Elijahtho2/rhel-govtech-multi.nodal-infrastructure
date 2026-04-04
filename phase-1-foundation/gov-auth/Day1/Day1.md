@@ -1,4 +1,4 @@
-# Day 1 - Users & Groups Lab
+# Day 1 - Users & Groups Administration
 
 ## Objective
 
