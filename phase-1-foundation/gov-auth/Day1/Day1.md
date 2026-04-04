@@ -11,7 +11,7 @@
 - Groups missing
 - Permissions incorrect
 
-![Broken State](../screenshots/phase-1-auth/day1-user-broken.png)
+![Broken State](..//phase-1-foundation/screenshots/day1-user-broken.png)
 
 ## Fix:
 
