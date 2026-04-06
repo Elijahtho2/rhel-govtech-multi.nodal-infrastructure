@@ -6,7 +6,7 @@ SOURCE_DIR="$HOME/win-screenshots"
 REPO_DIR="$HOME/rhel-govtech-multi.nodal-infrastructure"
 
 PHASE1_DIR="$REPO_DIR/phase-1-foundation/screenshots"
-PHASE2_DIR="$REPO_DIR/phase-2-core-infrasturcture/gov-admin/screenshots"
+PHASE2_DIR="$REPO_DIR/phase-2-core-infrastructure/gov-admin/screenshots"
 PHASE3_DIR="$REPO_DIR/phase-3-application-integration/gov-app/screenshots"
 UNMATCHED_DIR="$REPO_DIR/screenshots/unmatched"
 
