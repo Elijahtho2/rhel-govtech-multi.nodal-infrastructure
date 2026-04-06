@@ -77,7 +77,7 @@ touch testfile.txt
 
 ls
 
-![Fixed State](../sreenshots/day1-user-fixed.png)
+![Fixed State](../screenshots/day1-user-fixed.png)
 
 
 ## Screenshots
@@ -92,5 +92,5 @@ ls
 
 - Fixed State - permission granted
 
-![Fixed State](../sreenshots/day1-user-fixed.png)
+![Fixed State](../screenshots/day1-user-fixed.png)
 
