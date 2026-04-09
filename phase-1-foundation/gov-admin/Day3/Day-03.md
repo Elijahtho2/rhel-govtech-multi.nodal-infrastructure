@@ -1,6 +1,7 @@
 # Day 03 - ACLs
 
-*** Gov-Admin VM
+### Gov-Admin VM
+
 ## Objectives
 
 - Extend Permission model using ACLs
@@ -22,7 +23,7 @@ getfacl /sharedgroup
 
 ## Troubleshoot
 
-### Commands
+### Commands:
 
 getfacl /sharedgroup
 
@@ -36,15 +37,9 @@ setfacl -d -m u:user400:rwx /sharedgroup
 
 ----Screenshot----
 
-*** Gov-Auth VM
+## Repeat on Gov-Auth VM
 
-### Commands:
-
-su - user400
-
-touch /sharedgroup/acl-test
-
-*** Gov-App VM
+## Repeat on Gov-App VM
 
 - Validate inheritance:
 
