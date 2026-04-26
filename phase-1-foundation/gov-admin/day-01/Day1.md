@@ -2,24 +2,62 @@
 
 ## Objective
 
-- Create users and groups 
+- Create users: user100-user500
+- Create groups: Alpha, Beta
+- Assubg users to groups
+- Create /sharedgroup directory 
 - Set permissions for /sharedgroup
 
 ## Broken / Issue
 
+- user100 cannot access /sharedgroup
+- user400 incorrectly placed in Alpha
 - Users missing 
 - Groups missing
 - Permissions incorrect
 
 ![Broken State](../screenshots/day1-user-broken.png)
 
-## Fix:
-
-- Created users, added to groups
-- Set permissions for /sharedgroup
+## Troubleshoot
 
 ### Commands:
 
+id user100
+
+groups user400
+
+ls -ld /sharedgroup
+
+## Root-Cause
+
+- Incorrect group membeership and missing directory group ownership alignment
+
+## Fixed:
+
+
+### Commands:
+
+usermod -aG Alpha user200
+
+usermod -G Beta user400
+
+chown :Alpha /sharedgroup
+
+chmod 770 /sharedgroup
+
+## Why-It-Works
+
+- Linux access is determined by UID/GID mapping
+- Group ownership + permissions define shared access boundaries
+
+## System-Impact
+
+- Identity management controls access to All services and files
+- Misconfigured groups cascade into permission failures system-wide
+
+## Cross-Node Insight
+
+- Users/groups exist only on gov-admin unless created on other VMs
 1. Created Users:
 
 useradd user100
