@@ -21,7 +21,7 @@ Files existed unarchived.
 
 mkdir archive-lab.tar
 
-## Restord Archive
+## Restored Archive
 
 mkdir restore-test
 
