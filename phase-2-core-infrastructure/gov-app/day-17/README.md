@@ -51,7 +51,7 @@ DocumentRoot /webdata
 
 <Directory /webdata>
     
-    Require all grated
+    Require all granted
 
 </Directory>
 
