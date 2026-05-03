@@ -66,3 +66,22 @@ Host-only adapter provides inter-node communication.
 
 ## Outcome
 Calidated network stack on all nodes.
+
+
+## Automation Opportunity
+
+This task can be automated using Ansible.
+
+Future automation includes:
+- remote execution across nodes
+- configuration enforcement
+- repeatable deployment
+
+
+## AI Usage 
+
+AI was used to:
+- validate commands
+- troubleshoot issues
+- confirm expected outputs
+

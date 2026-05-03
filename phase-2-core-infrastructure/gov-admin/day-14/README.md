@@ -33,3 +33,22 @@ Public key copied to authorized_keys enables passwordless trust.
 
 ## Outcome
 SSH trust established.
+
+
+## Automation Opportunity
+
+This task can be automated using Ansible.
+
+Future automation includes:
+- remote execution across nodes
+- configuration enforcement
+- repeatable deployment
+
+
+## AI Usage 
+
+AI was used to:
+- validate commands
+- troubleshoot issues
+- confirm expected outputs
+
