@@ -21,12 +21,14 @@ vim ansible/playbooks/selinux_context.yml
 '''
 
 - hosts: gov-app
+
   become: yes
+
   tasks:
 
     - name: Set SELinux context
 
-      command: semanage fcontext -a -t httpd_sys_content_t "/webdata(/.*)?"
+     command: semanage fcontext -a -t httpd_sys_content_t "/webdata(/.*)?"
 
 
 
