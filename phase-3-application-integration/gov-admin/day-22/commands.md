@@ -28,7 +28,7 @@ vim ansible/playbooks/selinux_context.yml
 
     - name: Set SELinux context
 
-     command: semanage fcontext -a -t httpd_sys_content_t "/webdata(/.*)?"
+      command: semanage fcontext -a -t httpd_sys_content_t "/webdata(/.*)?"
 
 
 
